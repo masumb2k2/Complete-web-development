@@ -3,26 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <title><Form:post></Form:post></title>
 </head>
 <body>
-    <h1>Student data Table</h1>
-    <table border="">
-        <th>
-            <td>Name</td>
-            <td>Age</td>
-            <td>Gender</td>
-        </th>
-        <tr>
-            <td rowspan="2">Masum</td>
-            <td>24</td>
-            <td>Male</td>
-        </tr>
-        <tr>
-            <td>25</td>
-
-        </tr>
-    </table>
-
+    <h1>Registration Form</h1>
+    <form action="">
+        <div>
+        <label for="fname">
+        Name: <input type="text" name="fname">
+    </label>
+    </div>
+    <br>
+    <div>
+        <label for="email">
+            Email: <input type="email" name="email" id="">
+        </label>
+    </div>
+    <br>
+    <div>
+        <label for="pass">
+            Pass: <input type="password" name="pass" id="">
+        </label>
+    </div>
+    <br>
+    <div>
+        <label for="Mobile">
+            Mobile: <input type="tel" name="mobile" id="">
+        </label>
+    </div>
+    <br>
+    <div><label for="DOB">
+        DOB: <input type="date" name="DOB" id="">
+    </label></div>
+    <br>
+    <div>
+       <label for="gender">
+        Gender:  
+        <select name="gender" id="">
+            <option value="Maale">Male</option>
+            <option value="Female">Female</option>
+        </select>
+       </label>
+    </div>
+    <div>
+        <label for="hobby">
+            Religion: <input type="checkbox" name="religion" id="">Gaming
+            <input type="checkbox" name="relogion" id=""> Movie
+        </label>
+    </div>
+    <div>
+        <label for="rd">
+            Radio: <input type="radio" name="rd" id=""> Islam
+            <input type="radio" name="rd" id="">Hindu
+        </label>
+    </div>
+    <div>
+        <label for="img">
+            Image: <input type="file" name="img" id="">
+        </label>
+    </div>
+    <div>
+        <button type="submit">Register</button>
+        <button type="reset">Reset Form</button>
+    </div>
+    </form>
+    
 </body>
 </html>
