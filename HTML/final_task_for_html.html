@@ -18,9 +18,9 @@
   </head>
   <body>
     <header class="header">
-      <hgroup>
+
         <h1>Masum billah</h1>
-      </hgroup>
+      
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -28,6 +28,7 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#project">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="https://github.com/masumb2k2" target="_blank">Github</a></li>
         </ul>
       </nav>
     </header>
@@ -45,6 +46,13 @@
           <em>vitae in beatae</em> adipisci natus
           <strong>repudiandae</strong> optio alias quo?
         </p>
+        <hr>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quod nam obcaecati, reprehenderit aliquam cum natus modi necessitatibus quis molestiae deleniti, est qui beatae numquam perspiciatis tempore blanditiis ducimus. Voluptas est sapiente quae odit atque dolorem minus laborum maiores beatae ab expedita aliquam, cum alias facere ratione assumenda temporibus reprehenderit voluptatum rerum accusantium corrupti ipsa praesentium. Accusamus ratione vel deleniti odit laborum, distinctio ipsum eum mollitia excepturi suscipit sint nam fugiat inventore maiores fuga blanditiis? Accusamus, tenetur quasi. Tenetur est totam cupiditate distinctio itaque quibusdam natus. Soluta, adipisci libero dolore asperiores doloribus dicta aspernatur debitis laudantium fugiat vero dolores. At.</p>
+        <div>
+            <aside>
+                <q>Code, Eat, Sleep, Repreat</q>
+            </aside>
+        </div>
       </section>
       <section id="about">
         <h1>Masum Billah</h1>
@@ -72,7 +80,7 @@
           <h2>Study Routine</h2>
           <table border="1">
             <thead>
-              <tr>
+              <th>
                 <td>Subject</td>
                 <td>Sun</td>
                 <td>Mon</td>
@@ -81,7 +89,7 @@
                 <td>The</td>
                 <td>Fri</td>
                 <td>Sat</td>
-              </tr>
+              </th>
             </thead>
             <tbody>
               <tr>
@@ -106,12 +114,13 @@
         <h1>Skills</h1>
         <div>
           <ul>
-            <li>FrontEnd</li>
+            <li>FrontEnd
             <ol>
               <li>HTML</li>
               <li>CSS</li>
               <li>TailWindd</li>
             </ol>
+            </li>
             <li>Backend</li>
             <li>Server</li>
           </ul>
@@ -155,20 +164,20 @@
           </div>
           <div id="gender">
             <label for="gender">
-              Gender: <input type="radio" name="Male" id="" /> Male
-              <input type="radio" name="female" id="" /> Female
+              Gender: <input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
             </label>
           </div>
           <div id="country">
             <label for="country">
               Your Country:
-              <select name="country" id="">
+              <datalist name="country" id="">
                 <option value="Bangladesh">Bangladesh</option>
                 <option value="India">India</option>
                 <option value="America">America</option>
                 <option value="Japan">Japan</option>
                 <option value="Russia">Russia</option>
-              </select>
+              </datalist>
             </label>
           </div>
           <div id="skills">
@@ -201,7 +210,7 @@
           <div>
             <fieldset>
               <legend>Personal Information</legend>
-              <label for="name"> Name: <input type="text" /> </label>
+              <label for="name"> Name: <input type="text" id="name"/> </label>
               <label for="dob">
                 Date of Birth : <input type="date" name="" id="" />
               </label>
@@ -220,6 +229,7 @@
     </main>
     <footer>
       <p>&copy; CopyWrite 2026</p>
+      <p>&amp;, &nbsp;, &trade;, &hearts;</p>
     </footer>
   </body>
 </html>
