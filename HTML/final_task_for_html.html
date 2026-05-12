@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the final task of my html learning section"
+    />
+    <meta name="keywords" content="HTMl leaning, Leaning, Cloude" />
+    <meta name="author" content="Masum Billah" />
+    <link
+      rel="shortcut icon"
+      href="./images/portfolio.png"
+      type="image/x-icon"
+    />
+    <title>Personal Portfolio Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <hgroup>
+        <h1>Masum billah</h1>
+      </hgroup>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <hgroup>
+          <h1>Lorem ipsum dolor sit.</h1>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        </hgroup>
+        <p>
+          Lorem ipsum dolor <small>sit amet,</small> consectetur
+          <mark> adipisicing elit.</mark> Asperiores ad, ipsum
+          <em>vitae in beatae</em> adipisci natus
+          <strong>repudiandae</strong> optio alias quo?
+        </p>
+      </section>
+      <section id="about">
+        <h1>Masum Billah</h1>
+        <figure>
+          <img src="./images/bilaiImage.jpg" alt="cat image" width="500" />
+          <figcaption>A Beatiful Cat</figcaption>
+        </figure>
+        <div>
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Programmin</li>
+            <li>Coding</li>
+            <li>Gaming</li>
+            <li>Traveling</li>
+            <li>Watching</li>
+          </ul>
+          <h2>Goals</h2>
+          <ol>
+            <li>Software Engineer</li>
+            <li>Devops Engineer</li>
+            <li>Good Human</li>
+          </ol>
+        </div>
+        <div id="studyroutine">
+          <h2>Study Routine</h2>
+          <table border="1">
+            <thead>
+                <tr>
+                    <td>Subject</td>
+                    <td>Sun</td>
+                    <td>Mon</td>
+                    <td>Tue</td>
+                    <td>Wed</td>
+                    <td>The</td>
+                    <td>Fri</td>
+                    <td>Sat</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Math
+                    </td>
+                    <td colspan="5">study</td>
+                    <td colspan="2">Sleep</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Eng</td>
+                    <td colspan="4">Study</td>
+                    <td colspan="3">Sleep</td>
+                </tr>
+                <tr>
+                    <td colspan="3">sleep</td>
+                    <td colspan="4">study</td>
+               </tr>
+            
+            </tbody>
+            
+          </table>
+        </div>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <div>
+          <ul>
+            <li>FrontEnd</li>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>TailWindd</li>
+            </ol>
+            <li>Backend</li>
+            <li>Server</li>
+          </ul>
+        </div>
+      </section>
+      <section id="project">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" height="500" width="400">youtube</iframe>
+
+        <div>
+            <audio src="#" controls>Audio</audio>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="">
+          <div id="name">
+            <label for="name">
+              Name: <input type="text" name="nme" id="" />
+            </label>
+          </div>
+          <div id="email">
+            <label for="email">
+              Email: <input type="email" name="email" id="" />
+            </label>
+          </div>
+          <span id="tel">
+            <label for="tel">
+              Phone: <input type="tel" name="tel" id="" />
+            </label>
+          </span>
+          <div id="dob">
+            <label for="dob">
+              Date of Birth: <input type="date" name="dob" id="" />
+            </label>
+          </div>
+          <div id="gender">
+            <label for="gender">
+              Gender: <input type="radio" name="Male" id="" /> Male
+              <input type="radio" name="female" id="" /> Female
+            </label>
+          </div>
+          <div id="country">
+            <label for="country">
+              Your Country:
+              <select name="country" id="">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="Japan">Japan</option>
+                <option value="Russia">Russia</option>
+              </select>
+            </label>
+          </div>
+          <div id="skills">
+            <label for="skills">
+              Skills you have:
+              <input type="checkbox" name="ai" id="" /> AI
+              <input type="checkbox" name="ml" id="" /> ML
+              <input type="checkbox" name="web" id="" /> WEB
+              <input type="checkbox" name="ad" id="" /> Android
+              <input type="checkbox" name="cv" id="" /> CV
+            </label>
+          </div>
+          <div id="purl">
+            <label for="purl">
+              Portfolio URL: <input type="url" name="purl" id="" />
+            </label>
+          </div>
+          <div id="cv">
+            <label for="cv">
+              Upload CV: <input type="file" name="cv" id="" />
+            </label>
+          </div>
+          <div id="msg">
+            <label for="msg">
+              Message:
+              <textarea rows="5" cols="30" placeholder="Enter Your Message">
+              </textarea>
+            </label>
+          </div>
+          <div>
+            <fieldset>
+              <legend>Personal Information</legend>
+              <label for="name"> Name: <input type="text" /> </label>
+              <label for="dob">
+                Date of Birth : <input type="date" name="" id="" />
+              </label>
+              <label for="age">
+                Age: <input type="number" name="age" id="" />
+              </label>
+            </fieldset>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+        <div>
+            <a href="mailto:masumb2k2@gmail.com">Mail Me</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p>
+            &copy; CopyWrite 2026
+        </p>
+    </footer>
+  </body>
+</html>
