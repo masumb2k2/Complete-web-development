@@ -6,6 +6,11 @@
     <meta name="description" content="My Personal Porfolio website" />
     <meta name="keywords" content="HTML, WEB, POrtfolio" />
     <meta name="author" content="Masum Billah" />
+    <link
+      rel="shortcut icon"
+      href="./images/portfolio.png"
+      type="image/x-icon"
+    />
     <title>My Portfolio website</title>
   </head>
   <body>
@@ -13,14 +18,15 @@
       <h1>MASUM BILLAH</h1>
       <nav id="navigation">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
             <a href="https://github.com/masumb2k2" target="_blank">Github</a>
           </li>
+          <li><a href="mailto:masumb2k2@gmail.com">&eDot;</a></li>
         </ul>
       </nav>
     </header>
@@ -31,11 +37,193 @@
           <h3>Lorem ipsum dolor sit amet.</h3>
           <h4>Lorem ipsum dolor sit amet consectetur.</h4>
         </hgroup>
-        <p>Lorem, ipsum. <strong>Lorem ipsum dolor sit.</strong> <em>Lorem ipsum dolor sit amet consectetur.</em> <mark>Lorem ipsum dolor sit amet consectetur.</mark><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quibusdam.</small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti eius maiores soluta dolorum obcaecati libero est qui? Beatae modi quae necessitatibus temporibus accusamus voluptatum veniam quaerat nostrum? Beatae eveniet blanditiis impedit, iste cupiditate repellat, voluptatem facilis totam atque aliquid culpa ex modi a debitis.</p>
-        <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptate atque officia, harum hic vitae inventore! Ipsum eos corporis magni.
+        <p>
+          Lorem, ipsum. <strong>Lorem ipsum dolor sit.</strong>
+          <em>Lorem ipsum dolor sit amet consectetur.</em>
+          <mark>Lorem ipsum dolor sit amet consectetur.</mark
+          ><small
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            quibusdam.</small
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+          eius maiores soluta dolorum obcaecati libero est qui? Beatae modi quae
+          necessitatibus temporibus accusamus voluptatum veniam quaerat nostrum?
+          Beatae eveniet blanditiis impedit, iste cupiditate repellat,
+          voluptatem facilis totam atque aliquid culpa ex modi a debitis.
+        </p>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+          voluptate atque officia, harum hic vitae inventore! Ipsum eos corporis
+          magni.
         </p>
       </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <figure>
+          <img src="./images/bilaiImage.jpg" alt="A image" width="500px" />
+          <figcaption>A Image of the Absulate owner of this image</figcaption>
+        </figure>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Developing</li>
+          <li>WEB</li>
+          <li>Learn Tech</li>
+        </ul>
+        <h3>Skills</h3>
+        <ol>
+          <li>
+            FrontEnd
+            <ul>
+              <li>HTMl</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ul>
+          </li>
+          <li>Backend</li>
+          <li>Devops</li>
+        </ol>
+        <h3>Daily routine</h3>
+        <span>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Sat</th>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="3">SE</td>
+                <td colspan="4" rowspan="2">AI</td>
+              </tr>
+              <tr>
+                <td colspan="2">ML</td>
+                <td>Dev</td>
+              </tr>
+              <tr>
+                <td colspan="5">Mobile App Development</td>
+                <td colspan="2">Free</td>
+              </tr>
+            </tbody>
+          </table>
+        </span>
+      </section>
+      <section id="project">
+        <h3>Projects</h3>
+        <iframe
+          src="https://google.com"
+          frameborder="1"
+          height="500"
+          width="500"
+          >Github</iframe
+        >
+        <video
+          src="./Vdo/WhatsApp Video 2026-05-07 at 5.05.08 PM.mp4"
+          controls
+          height="500"
+          width50
+        >
+          Video
+        </video>
+      </section>
+      <section id="contact">
+        <h3>Contact Us</h3>
+        <div id="form">
+          <form action="">
+            <div class="name">
+              <label for="name">
+                Name: <input type="text" name="name" id="" />
+              </label>
+            </div>
+            <div class="email">
+              <label for="email">
+                Email: <input type="email" name="email" id="" />
+              </label>
+            </div>
+            <div class="tel">
+              <label for="tel">
+                Phone: <input type="tel" name="phone" id="" />
+              </label>
+            </div>
+            <div class="date">
+              <label for="date">
+                Date of Birth: <input type="date" name="date" id="" />
+              </label>
+            </div>
+            <div class="radio">
+              <label for="radio">
+                Gender:
+                <input type="radio" name="radio" value="Male" id="" /> Male
+                <input type="radio" name="radio" value="Female" id="" /> Female
+              </label>
+            </div>
+            <div class="country">
+              <label for="country"> Country: </label>
+              <input list="countrys" id="list" name="Country" />
+              <datalist id="countrys">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Russia">Russia</option>
+                <option value="China">China</option>
+              </datalist>
+            </div>
+            <div class="skill">
+              <label for="skill">
+                Skills you have: <input type="checkbox" name="skill" id="" /> AI
+                <input type="checkbox" name="skill" id="" /> ML
+                <input type="checkbox" name="skill" id="" /> Devops
+                <input type="checkbox" name="skill" id="" /> WEB
+                <input type="checkbox" name="skill" id="" /> Python
+                <input type="checkbox" name="skill" id="" /> Backend
+              </label>
+            </div>
+            <div class="url">
+              <label for="url">
+                Portfolio URL: <input type="url" name="url" id="" />
+              </label>
+            </div>
+            <div class="cv">
+              <label for="cv">
+                Upload CV: <input type="file" name="cv" id="" />
+              </label>
+            </div>
+            <div class="msg">
+              <label for="msg">
+                Message:
+                <textarea name="msg" cols="25" rows="5" id=""></textarea>
+              </label>
+            </div>
+            <br />
+            <div class="field">
+              <fieldset>
+                <div class="fname">
+                  <label for="fname">
+                    FullName: <input type="text" name="fname" id="" />
+                  </label>
+                </div>
+                <div class="email">
+                  <label for="email">
+                    Email: <input type="email" name="email" id="" />
+                  </label>
+                </div>
+                <legend>Portfolio Website</legend>
+              </fieldset>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <p>&copy; Copywrite MASUM &amp;Lazydevs</p>
     </main>
   </body>
 </html>
